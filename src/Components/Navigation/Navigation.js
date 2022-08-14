@@ -2,10 +2,13 @@ import React from "react";
 
 const Navigation = () => {
     return(
-        <h1>
-            Sallam;
-        </h1>
+        <nav style={{display: "flex", justifyContent: 'flex-end'}}>
+            <h1 className={"f3 link dim black underline pa3 pointer white"} >
+                Sign Out
+            </h1>
+        </nav>
     );
+
 }
 
 export default Navigation;
